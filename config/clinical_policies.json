@@ -1,0 +1,26 @@
+{
+  "tunable_policies": {
+    "triage_screening": {
+      "enabled": false,
+      "red_flag_keywords": [
+        "chest pain",
+        "shortness of breath",
+        "trouble breathing",
+        "loss of consciousness",
+        "stroke",
+        "severe hemorrhage"
+      ],
+      "pre_tool_triage_required": false
+    },
+    "ambiguity_handling": {
+      "ask_clarification_on_vague_dates": true,
+      "max_inferred_days": 1
+    },
+    "outage_resiliency": {
+      "explain_service_error": true,
+      "provide_clinic_phone": true,
+      "clinic_phone_number": "555-0100"
+    }
+  },
+  "applied_patches": []
+}
